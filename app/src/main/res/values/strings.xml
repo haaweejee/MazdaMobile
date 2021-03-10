@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MazdaMobile</string>
+    <string name="createBy">HWJCORP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_name">Hendrawan Wibowo Jatmiko</string>
+    <string name="profile_email">hendrawanwib@gmail.com</string>
+    <string name="desctiption_title">BORN FROM THE HANDS OF CRAFTSMEN</string>
+    <string name="decsription_text">The Mazda is the culmination of a quest obuild out finest sedan ever. Mazda artisans considered every detail to craft an interior sure to please even the most discerning drivers</string>
+    <string name="btnTitleDetail">Show Detail</string>
+    <string name="search">Search</string>
+    <string name="carName">Nama Mobil</string>
+    <string name="carType">Tipe Mobil</string>
+    <string name="startFrom">*Harga Mulai dari</string>
+    <string name="price">Rp. 729.000.000</string>
+    <string name="note"><![CDATA[*OTR Jakarta & Harga di atas sewaktu-waktu dapat berubah tanpa pemberitahuan sebelumnya]]></string>
+    <string name="ayo_coba_tekan_warnanya">Ayo Coba Tekan Warnanya</string>
+    <string name="engine">Mesin</string>
+    <string name="spec">Spesifikasi</string>
+</resources>

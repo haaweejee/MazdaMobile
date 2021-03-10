@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btm_sheet"
+    android:background="@android:color/transparent"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottomnav_bg"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="5dp"
+                android:background="@color/grey"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvNameDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/carName"
+                    style="@style/nameCarsDetail"/>
+
+                <TextView
+                    android:id="@+id/tvTypeDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/carType"
+                    style="@style/typeCarsDetail"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startFrom"
+                style="@style/textDetail"/>
+
+            <TextView
+                android:id="@+id/tvPriceDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                style="@style/priceCarsDetail"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note"
+                style="@style/textDetail"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/ayo_coba_tekan_warnanya"
+                style="@style/textDetail"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/colorsRed"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@android:color/holo_red_dark"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/colorBlack"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@color/black"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/colorGrey"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@android:color/darker_gray"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/colorWhite"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@color/white"
+                    app:civ_border_width="1dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnBrosur"
+                    android:text="Brosur"
+                    app:cornerRadius="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSpec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Full Spefication"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFeature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="5dp"
+                android:text="Full Feature"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGoWebs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="5dp"
+                android:text="Visit Cars Website"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReview"
+                app:cornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Review"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDealer"
+                app:cornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find Dealer"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
